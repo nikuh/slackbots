@@ -1,0 +1,50 @@
+{
+  "name": "slack-bot",
+  "version": "1.0.0",
+  "description": "A sample program that operates a slackbot for simple tasks.",
+  "main": "src/main.coffee",
+  "scripts": {
+    "test": "test",
+    "start": "(coffee --compile --output dist --watch src) && node ./dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ericmhalvorsen/slack-bot.git"
+  },
+  "keywords": [
+    "slackbot"
+  ],
+  "author": "Eric Halvorsen",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ericmhalvorsen/slack-bot/issues"
+  },
+  "homepage": "https://github.com/ericmhalvorsen/slack-bot",
+  "dependencies": {
+    "coffee": "^1.1.0",
+    "coffee-script": "^1.9.3",
+    "node-inspector": "^0.12.2",
+    "slack-client": "^1.4.1",
+    "hubot": "^2.10.0",
+    "hubot-business-cat": "1.2.2",
+    "hubot-diagnostics": "0.0.1",
+    "hubot-google-images": "^0.1.2",
+    "hubot-google-translate": "^0.1.0",
+    "hubot-help": "^0.1.1",
+    "hubot-heroku-keepalive": "0.0.4",
+    "hubot-maps": "0.0.1",
+    "hubot-pugme": "^0.1.0",
+    "hubot-redis-brain": "0.0.2",
+    "hubot-rules": "^0.1.0",
+    "hubot-scripts": "^2.5.16",
+    "hubot-shipit": "^0.1.1",
+    "hubot-slack": "^3.1.0",
+    "hubot-youtube": "^0.1.2"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.9.3"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
